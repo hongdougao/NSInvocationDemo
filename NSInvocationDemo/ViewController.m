@@ -17,13 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self testClassMethod];
-    [self changeString:nil];
-    [ViewController transationString:@"lala"];
+//    [self testClassMethod];
+//    [self changeString:nil];
+//    [ViewController transationString:@"lala"];
+//    
+//    [self classChange];
     
-    [self classChange];
+    [self testInvocationWithMoreString];
     
 }
+
 - (void)testClassMethod{
     NSString *string = nil;
     
@@ -105,6 +108,35 @@
     [invocation getReturnValue:&stringOne];
     NSLog(@"transation 之后的str：%@",stringOne);
 
+}
+- (void)testInvocationWithMoreString{
+    
+    NSString *str = nil;
+    SEL mySelector = @selector(appendMoreStringOne:andStringTwo:andStringThree:);
+    
+    NSMethodSignature *sig = [TSTInvocation methodSignatureForSelector:mySelector];
+    
+    NSInvocation *invocation  = [NSInvocation invocationWithMethodSignature:sig];
+    
+    [invocation setTarget:[TSTInvocation class]];
+    [invocation setSelector:mySelector];
+    
+    NSString *strA = @"乌拉拉";
+    [invocation setArgument:&strA atIndex:2];
+    
+    NSString *strB = @"one piece";
+    [invocation setArgument:&strB atIndex:3];
+    
+    NSString *strC = @"别扭受";
+    [invocation setArgument:&strC atIndex:4];
+    
+    [invocation retainArguments];
+    [invocation invoke];
+    
+    [invocation getReturnValue:&str];
+    NSLog(@"%s 最终结果 %@",__FUNCTION__,str);
+    
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

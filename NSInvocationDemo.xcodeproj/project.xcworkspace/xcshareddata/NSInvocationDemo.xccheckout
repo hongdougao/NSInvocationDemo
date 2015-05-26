@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4BB9DD7E-C72F-4511-A638-3D573E3F973E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NSInvocationDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9328C61E9381D689B79747DB77BFCE947CE7EE55</key>
+		<string>https://github.com/hongdougao/NSInvocationDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NSInvocationDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9328C61E9381D689B79747DB77BFCE947CE7EE55</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hongdougao/NSInvocationDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9328C61E9381D689B79747DB77BFCE947CE7EE55</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9328C61E9381D689B79747DB77BFCE947CE7EE55</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NSInvocationDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

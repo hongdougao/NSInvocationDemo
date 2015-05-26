@@ -17,4 +17,9 @@
     
     return stringM;
 }
++ (NSString *)appendMoreStringOne:(NSString *)stringA andStringTwo:(NSString *)stringB andStringThree:(NSString *)stringC{
+    NSString *string =[NSString stringWithFormat:@"give me stringA :%@ stringB:%@ stringC:%@",stringA,stringB,stringC];
+    return string;
+
+}
 @end

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NSInvocationDemo/ViewController.m"
-            timestampString = "454299691.880857"
+            timestampString = "454303315.383762"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "-classChange"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NSInvocationDemo/ViewController.m"
-            timestampString = "454299691.880857"
+            timestampString = "454303315.383762"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "-classChange"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-testClassMethod"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -48,6 +48,22 @@
             startingLineNumber = "15"
             endingLineNumber = "15"
             landmarkName = "-appendMyString:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NSInvocationDemo/ViewController.m"
+            timestampString = "454303312.525379"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "-testInvocationWithMoreString"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

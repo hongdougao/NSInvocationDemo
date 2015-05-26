@@ -12,4 +12,6 @@
 
 - (NSString *)appendMyString:(NSString *)str;
 
++ (NSString *)appendMoreStringOne:(NSString *)stringA andStringTwo:(NSString *)stringB andStringThree:(NSString *)stringC;
+
 @end
